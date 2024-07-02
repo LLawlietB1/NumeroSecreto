@@ -48,7 +48,6 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
    } else {
     listaNumerosUsados.push(numeroEscolhido);
-    console.log(listaNumerosUsados);
     return numeroEscolhido;
    }
 }
